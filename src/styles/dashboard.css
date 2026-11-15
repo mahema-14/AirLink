@@ -1,0 +1,17 @@
+/* Custom Dashboard layout utilities */
+.admin-stat-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.admin-console-log {
+  background: #0f172a;
+  color: #34d399;
+  font-family: monospace;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #1e293b;
+}

@@ -1,0 +1,67 @@
+.sky-hero-bg {
+  background: linear-gradient(180deg, #0b1329 0%, #1e3a8a 50%, #2563eb 100%) !important;
+}
+
+.sky-floating-card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  box-shadow: 0 20px 50px -10px rgba(15, 23, 42, 0.15);
+  border: 1px solid #e2e8f0;
+}
+
+.sky-input-group {
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 0.65rem 1rem;
+  background: #f8fafc;
+  transition: all 0.2s ease;
+}
+
+.sky-input-group:focus-within {
+  border-color: #2563eb;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.sky-seat-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.65rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 1.25rem;
+  border: 1px solid #e2e8f0;
+}
+
+.sky-seat-item {
+  aspect-ratio: 1;
+  border-radius: 0.6rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.seat-open {
+  background: #ffffff;
+  color: #0f172a;
+  border: 1.5px solid #cbd5e1;
+}
+.seat-open:hover {
+  background: #2563eb;
+  color: #ffffff;
+  border-color: #2563eb;
+}
+
+.seat-taken {
+  background: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  border: 1.5px solid #cbd5e1;
+}
+
+.seat-chosen {
+  background: #2563eb;
+  color: #ffffff;
+  border: 1.5px solid #1d4ed8;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.4);
+}
